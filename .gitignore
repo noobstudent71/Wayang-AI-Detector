@@ -1,0 +1,10 @@
+# Mengabaikan berkas environment/kredensial API
+.env
+faiss_wayang_index/.env
+
+# Mengabaikan folder cache python
+__pycache__/
+*.pyc
+
+# Mengabaikan file model berukuran besar jika tidak ingin diunggah ke git lfs
+*.keras
